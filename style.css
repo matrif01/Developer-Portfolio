@@ -1,0 +1,210 @@
+* {
+  margin: 0px;
+  color: white;
+  box-sizing: border-box;
+}
+@import url(https://fonts.google.com/specimen/Prata);
+@import url(https://fonts.google.com/specimen/Inter);
+.container-part1 {
+  background-color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  margin-inline: auto;
+  width: 90%;
+  max-width: 800px;
+}
+nav h1 {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 3px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav ul :hover {
+  color: rgb(242, 255, 127);
+}
+li {
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  color: rgb(142, 141, 141);
+}
+button {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(253, 211, 25);
+  color: black;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 0 10px;
+  transform: 0.5s;
+}
+button:hover {
+  box-shadow: 0 0 10px rgba(252, 213, 39, 0.959);
+}
+.first-section {
+  margin-inline: auto;
+  width: 90%;
+  max-width: 800px;
+  padding: 40px 0;
+}
+.first-section h1 {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+}
+.first-section p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  color: rgb(142, 141, 141);
+  font-size: 13px;
+  padding: 5px;
+}
+
+.logos-container ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-inline: auto;
+  padding: 20px 0;
+  width: 90%;
+  max-width: 800px;
+}
+li {
+  list-style: none;
+}
+
+.second-section p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  color: rgb(142, 141, 141);
+  font-size: 13px;
+  padding: 5px;
+}
+.second-section h1 {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 5px;
+}
+.card {
+  width: 20rem;
+  border-radius: 10px;
+  transform:2.5;
+}
+.card:hover {
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.356);
+}
+
+.text {
+  padding: 8px 1px;
+}
+.imag {
+  width: 20rem;
+  border-radius: 10px;
+}
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+  padding: 15px 0;
+  width: 90%;
+  max-width: 800px;
+}
+
+.third-section {
+  background-color: rgb(49, 49, 49);
+}
+
+.third-section h1 {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.third-section p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  color: rgb(142, 141, 141);
+  font-size: 13px;
+  padding: 5px;
+}
+.texts-container {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+  padding: 15px 0;
+  width: 90%;
+  max-width: 800px;
+}
+.text {
+  width: 20rem;
+}
+.fourth-section {
+  background-color: black;
+}
+
+.content {
+  margin-inline: auto;
+  padding: 45px 0;
+  width: 90%;
+  max-width: 800px;
+}
+.fourth-section h1 {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fourth-section p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  color: rgb(142, 141, 141);
+  font-size: 13px;
+  padding: 5px;
+}
+footer {
+  background-color: rgb(49, 49, 49);
+}
+footer h1 {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0.2px;
+  
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+  padding: 15px 0;
+  width: 90%;
+  max-width: 800px;
+}
+footer ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
